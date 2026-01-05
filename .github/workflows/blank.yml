@@ -34,8 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo "READY"
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: test-file
           path: .
+           
+           
